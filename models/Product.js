@@ -16,17 +16,29 @@ Product.init(
       primaryKey: true,
       autoIncrement: true,
     },
-    card_number: {
-      type: DataTypes.UUID,
-      defaultValue: UUIDV4,
+    product_name: {
+      type: DataTypes.STRING,
+      allowNull: false,
     },
-    reader_id: {
+    price: {
+      type: DataTypes.DECIMAL,
+      allowNull: false,
+//todo validate value is decimal    
+    },
+   stock: {
       type: DataTypes.INTEGER,
-      references: {
-        model: 'reader',
-        key: 'id',
-      },
+      allowNull: false,
+      defaultValue: 10,
+//todo validate value is a #
     },
+   category_id: {
+    type: DataTypes.INTEGER,
+    references: {
+      model: 'category',
+      key: 'id',
+    },
+    }
+    
   },
   {
     sequelize,
