@@ -4,7 +4,7 @@ By Mike Fedele
 ## Table of Contents 
 
 - [Description](#description)
-- [Deployed](#Deployed)
+- [Walk-thru](#Walk-thru)
 - [Github](#Github)
 - [Screenshot](#Screenshot)
 - [credits](#credits)
@@ -12,22 +12,20 @@ By Mike Fedele
 
 ## Description
 
-A full stack note taking application using Express & NodeJS.
+An E commerce backend template using sequelize, mysql2, & express.
 
 
-## Deployed
-[Deployed](https://damp-fjord-83925.herokuapp.com/)
+## Walk-thru
+[Walk-thru](https://watch.screencastify.com/v/Iuokh0NtPGSTLv0jH4fI)
 
 ## Github
 
-![Github](https://github.com/Mikefedele/Note-Taker-App)
+![Github](https://github.com/Mikefedele/Ecomm-Backend)
    
-## Screenshot
-![Screenshot](./screenshot.png)
 
 ## Credits
 Mike Fedele
 Contact me at: mikefid11@gmail.com
 
 ## License
-MIT License    `${https://img.shields.io/badge/license-MIT-blue}`
+MIT License    
